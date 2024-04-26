@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  main {
+    padding: 20px; /* Movemos el padding de aquí para eliminar el espacio adicional generado por el borde */
+    border-bottom: none; /* Elimina el borde inferior */
+  }
+  
+  .recuadro {
+    border: 1px solid #ccc; /* Añadimos el borde al recuadro */
+    padding: 10px; /* Añadimos espacio interno */
+  }
+  
+  .comprobante {
+    display: grid;
+    grid-gap: 5px; /* Espacio entre las celdas */
+  }
+  
+  .fila {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
+  }
+  
+  .etiqueta {
+    padding: 5px; /* Espacio interno para mejorar la legibilidad */
+    border-bottom: 1px solid #ccc; /* Línea inferior */
+    font-weight: bold;
+  }
+
+  .dato {
+    padding: 7px; 
+    padding-left: 58px;
+    border-bottom: 1px solid #ccc; /* Línea inferior */
+    align-self: end;
+     /* Alinea los datos en la parte inferior */
+  }
+  
