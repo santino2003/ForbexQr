@@ -47,7 +47,7 @@ body {
 
   .dato {
     padding: 7px; 
-    padding-left: 58px;
+    padding-left: 50px;
     border-bottom: 1px solid #ccc; /* Línea inferior */
     align-self: end;
      /* Alinea los datos en la parte inferior */
